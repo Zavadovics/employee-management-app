@@ -28,7 +28,7 @@ const Datalist = ({ employees }) => {
   return (
     <div className='container-sm mt-5'>
       <h1>Adatlista</h1>
-      <table className='table table-striped table-bordered'>
+      <table className='table table-striped table-bordered mt-5'>
         <thead>
           <tr>
             <th>#</th>
@@ -108,7 +108,7 @@ const Datalist = ({ employees }) => {
             ))}
         </tbody>
       </table>
-      <div className='mb-3'>
+      <div className='mt-5'>
         <label htmlFor='search' className='form-label'>
           Dolgozók akiknek kevesebb szabadságuk van, mint
         </label>
